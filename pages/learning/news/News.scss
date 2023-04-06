@@ -1,0 +1,87 @@
+.contentNews {
+    display: flex;
+    flex-direction: column;
+    gap: 220px 0;
+    text-align: left;
+    min-width: 1550px;
+    padding: 220px 158px 85px;
+
+    .newsCard {
+        display: flex;
+        gap: 75px;
+
+        .newsCardRight {
+
+            h3 {
+                font-size: 40px;
+                font-weight: 500;
+                padding-bottom: 25px;
+            }
+
+            p {
+                font-size: 20px;
+                font-weight: 400;
+                max-width: 1065px;
+            }
+
+            .newsCardRigthBottom {
+                display: flex;
+                gap: 100px;
+                padding-top: 62px;
+
+                a {
+                    background: #FC8F44;
+                    border-radius: 15px;
+                    color: #fff;
+                    padding: 10px 30px;
+                    border: none;
+                    font-size: 20px;
+                    font-weight: 500;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: #FC8F44;
+                    background: #fff;
+                    transition: .3s;
+                }
+
+                .newsCardTime {
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    
+                    p {
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+
+    .newsBtnNav {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        
+        
+        a {
+            background: #FC8F44;
+            text-decoration: none;
+            color: #65391B;
+            width: 50px;
+            height: 60px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .aActive {
+            color: #FC8F44;
+            background: none;
+            border: 2px solid #FC8F44;
+        }
+    }
+}
