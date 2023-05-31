@@ -1,0 +1,50 @@
+
+.contackContent {
+    max-width: 1690px;
+    padding: 20px 116px 100px 116px;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+
+    p {
+        font-weight: 400;
+    }
+
+    .contactLeft {
+        h3 {
+            font-size: 40px;
+            font-weight: 500;
+            margin-bottom: 22px;
+            margin-top: 40px;
+        }
+
+        .email, .contactSocial, .adress {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+
+
+        }
+
+        .telephone {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+
+            .telephoneCard {
+                display: flex;
+                gap: 0 15px;
+            }
+
+        }
+    }
+
+    .Map {
+        margin: 100px 50px 0 0;
+    }
+    .contactRight {
+        img {
+            margin-top: 150px;
+        }
+    }
+}

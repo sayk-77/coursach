@@ -1,0 +1,104 @@
+.reviews {
+    .countReviews {
+        text-align: center;
+        font-weight: 600;
+        padding: 20px 0;
+    }
+    .reviewNot {
+        font-size: 32px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .reviews__content {
+        display: flex;
+        align-items: center;
+
+        .reviews__content-review {
+            border: 2px solid #fc8f44;
+            width: 1000px;
+            margin: 50px auto;
+            border-radius: 10px;
+            padding: 10px;
+
+            .review__content-title {
+                display: flex;
+
+                gap: 0 20px;
+                align-items: center;
+
+                p {
+                    font-weight: 600;
+                    font-size: 24px;
+                }
+
+                span {
+                    font-size: 20px;
+                }
+
+                .course_lang {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        width: 80px;
+                        height: 50px;
+                        margin-left: 15px;
+                    }
+                }
+            }
+
+            .reviews__content-rewiews-content-rating {
+                display: flex;
+                flex-direction: column;
+                justify-self: center;
+                align-items: center;
+                width: 150px;
+
+                .userName {
+                    margin: 0;
+                    max-width: 150px;
+                    word-wrap: break-word;
+                }
+
+                img {
+                    margin-bottom: 10px;
+                }
+            }
+
+            .rating-mini {
+                display: inline-block;
+                font-size: 0;
+            }
+            .rating-mini span {
+                padding: 0;
+                font-size: 20px;
+                line-height: 1;
+                color: lightgrey;
+            }
+            .rating-mini > span:before {
+                content: "★";
+            }
+            .rating-mini > span.active {
+                color: #fc8f44;
+            }
+
+            .reviews__content-review-content {
+                display: flex;
+                padding-top: 15px;
+
+                img {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 50%;
+                }
+
+                p {
+                    margin-left: 20px;
+                    max-width: 85%;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

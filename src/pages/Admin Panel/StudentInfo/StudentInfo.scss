@@ -1,0 +1,71 @@
+.StudentInfo {
+
+    .content {
+        display: flex;
+   
+        .Info {
+            height: 90vh;
+            max-width: 420px;
+            background: #EDF4F8;
+            padding-left: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px 0;
+
+            img {
+                display: flex;
+                margin: 0 auto;
+                padding: 75px 0;
+            }
+
+            p {
+                color: #828688;
+
+                span {
+                    color: #000;
+                    padding: 0 10px 0 50px;
+                }
+            }
+        }
+
+        .detailInfo {            
+            margin: 75px auto;
+            h2 {
+                font-weight: 600;
+                margin-bottom: 50px;
+            }
+
+            span {
+                color: #FC8F44;
+            }
+
+            .courseInfo {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 50px;
+                width: 1150px;
+                
+                p {
+                    font-weight: 500;
+                }
+            }
+
+            .course-box {
+                border: 3px solid #FC8F44;
+                min-width: 1100px;
+                height: 80px;
+                border-radius: 25px;
+                margin-bottom: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 30px;
+
+                p {
+                    max-width: 150px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

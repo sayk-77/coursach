@@ -1,0 +1,65 @@
+.addCourse {
+    h2 {
+        padding: 50px;
+        font-weight: 600;
+    }
+    .setting-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 60px;
+
+        .setting-item {
+            display: flex;
+            flex-direction: column;
+            gap: 20px 0;
+
+            p {
+                font-weight: 600;
+            }
+
+            input, select {
+                border: 2px solid gray;
+                font-size: 24px;
+                font-weight: 400;
+                border-radius: 10px;
+            }
+
+            input:focus, select:focus {
+                outline-color: #FC8F44;
+            }
+        }
+    }
+
+    .setting-title, .setting-included, .setting-additionally     {
+        display: flex;
+        justify-content: center;
+
+        textarea {
+            width: 90%;
+            resize: none;
+            height: 100px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: 2px solid gray;
+        }
+
+        textarea:focus {
+            outline: none;
+            border: 2px solid #FC8F44;
+        };
+    }
+
+    .add {
+        border: none;
+        color: #fff;
+        background-color: #FC8F44;
+        border-radius: 10px;
+        padding: 10px 20px;
+        margin: 50px;
+    }
+
+    
+
+
+    
+}

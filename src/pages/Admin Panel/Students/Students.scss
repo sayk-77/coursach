@@ -1,0 +1,43 @@
+.Students {
+
+    .content {
+        max-width: 850px;
+        margin: 0 auto;
+
+        h1{
+            padding: 75px 0;
+
+            .students-count {
+                color: #FC8F44;
+            }
+        }
+
+        .student {
+            border: 5px solid #EDF4F8;
+            border-radius: 25px;
+            display: flex;
+            padding: 0 10px;
+            margin-bottom: 25px;
+            align-items: center;
+            height: 90px;
+            justify-content: space-between;
+
+            #id {
+                color:#FC8F44;
+            }
+
+            a {
+                color:#FFFFFF;
+                display: flex;
+                background: #FC8F44;
+                border-radius: 15px;
+                padding: 10px 8px;
+            }
+
+            a:hover {
+                color:#FC8F44;
+                background:#FFFFFF;
+            }
+        }
+    }
+}

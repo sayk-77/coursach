@@ -1,0 +1,58 @@
+.setting {
+    
+    .setting-top {
+        padding: 0 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h2 {
+        font-weight: 600;
+        padding: 50px;
+    }
+
+    .setting-subtitle, .setting-mainText {
+        display: flex;
+        justify-content: center;
+        
+        textarea {
+            width: 90%;
+            resize: none;
+            height: 100px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: 2px solid gray;
+        }
+
+        textarea:focus {
+            outline: none;
+            border: 2px solid #FC8F44;
+        };
+    }
+
+    .setting-title {
+        padding-left: 100px;
+        
+        input {
+            width: 40%;
+            border: 2px solid gray;
+            font-size: 24px;
+            font-weight: 400;
+            border-radius: 10px;
+        }
+
+        input:focus {
+            outline-color: #FC8F44;
+        }
+    }
+
+    .submitNewsBtn {
+        border: none;
+        background-color: #FC8F44;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin: 50px 0 50px 50px;
+        cursor: pointer;
+    }
+}

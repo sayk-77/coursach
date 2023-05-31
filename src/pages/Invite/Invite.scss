@@ -1,0 +1,28 @@
+.invite {
+    display: flex;
+    justify-content: space-between;
+    background: #EDF4F8;
+    padding: 0 100px;
+
+    img {
+        margin: 130px 0;
+    }
+
+    .inviteLeft {
+        max-width: 1630px;
+        
+
+        h3 {
+            font-size: 50px;
+            font-weight: 500;
+            padding: 100px 0 50px 0;
+        }
+        
+        p {
+            max-width: 760px;
+            margin-top: 15px;
+            font-weight: 400;
+        }
+
+    }
+}

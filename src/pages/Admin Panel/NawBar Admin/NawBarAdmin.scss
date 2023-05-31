@@ -1,0 +1,27 @@
+.NawAdmin {
+    display: flex;
+    max-width: 100%;
+    height: 100px;
+    background: #385580;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+        display: flex;
+        gap: 0 100px;
+        color: #FFFFFF;
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+        li {
+            list-style: none;
+        }
+    }
+
+    img {
+        cursor: pointer;
+        margin-left: 10%;
+    }
+}

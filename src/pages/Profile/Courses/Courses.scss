@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+}
+
+.ProfileCourses {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    max-width: 1920px;
+
+    .CoursesWrapper {
+        max-width: 1090px;
+        height: auto;
+        padding: 70px 410px 0 410px;
+        }
+
+    .CoursesContent {
+        background: #EDF4F8;
+        height: auto;
+        padding: 40px 30px;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px 0;
+
+        .CoursesContentTitle {
+            display: flex;
+            gap: 225px;
+
+            h2 {
+                font-size: 26px;
+                font-weight: 500;
+            }
+        }
+
+        .CoursesContentCard {
+            display: flex;
+            align-items: center;
+            gap: 105px;
+
+            p {
+                font-size: 20px;
+                font-weight: 400;
+                max-width: 143px;
+
+            }
+
+            #price {
+                padding-left: 122px;
+            }
+
+            #term {
+                padding-left: 72px;
+            }
+
+            img {
+                width: 150px;
+                height: 90px;
+            }
+        }
+    }
+}

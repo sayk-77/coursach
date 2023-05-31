@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+
+.ProfileData {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    max-width: 1920px;
+
+    .DataWrapper {
+        max-width: 1090px;
+        padding: 70px 410px 0 410px;
+    }
+
+        .DataCard {
+            background: #EDF4F8;
+            height: 405px;
+            border-radius: 25px;
+
+            h2 {
+                font-size: 26px;
+                font-weight: 400;
+                padding: 20px 0 15px 25px ;
+            }
+
+            .DataCardHeader {
+                display: flex;
+                justify-content: space-between;
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                    padding: 15px 15px 0 0;
+                }
+            }
+
+            .DataCardInfo {
+                display: flex;
+                max-width: 1070px;
+                background: #fff;
+                height: 333px;
+                border-radius: 25px;
+                margin: 0 auto;
+
+                .DataCardMidle {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 25px 0;
+                    padding: 40px 20px  0;
+
+                }
+
+                .DataCardLeft {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 25px 0;
+                    padding: 40px 126px 0 25px;
+
+                    p {
+                        font-weight: 300;
+                    }
+                }
+
+                .DataCardRight {
+                    margin: auto;
+                    img {
+                        width: 30vh;
+                        height: 30vh;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+
